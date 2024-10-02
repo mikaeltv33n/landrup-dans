@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #5E2E53;
+}
+
+.rectangle-bg {
+    position: absolute;
+    width: 756.85px;
+    height: 406px;
+    left: -235px;
+    top: 142px;
+    background: rgba(94, 46, 83, 0.5);
+    transform: rotate(-27.19deg);
+}
+.frontpage-button{
+    opacity: 0; 
+    transition: opacity 800ms ease; 
+}
+
+.frontpage-button.show {
+    opacity: 1; 
+}
