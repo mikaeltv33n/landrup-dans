@@ -1,6 +1,6 @@
-import Navbar from "@/components/Navbar"
+import Navbar from "../../../components/Navbar"
 import Image from "next/image"
-import AdduserBtn from "@/components/AddUserBtn"
+import AdduserBtn from "../../../components/AddUserBtn"
 import { cookies } from "next/headers"
 
 

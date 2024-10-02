@@ -1,5 +1,5 @@
-import BackgroundImage from "@/components/BackgroundImage"
-import CallToAction from "@/components/CallToAction-btn"
+import BackgroundImage from "../components/BackgroundImage"
+import CallToAction from "../components/CallToAction-btn"
 export default function Home() {
 
   return (

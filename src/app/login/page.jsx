@@ -1,8 +1,8 @@
 "use client"
 
-import login from "@/actions/login"
+import login from "../../actions/login"
 import { useRouter } from "next/navigation"
-import BackgroundImage from "@/components/BackgroundImage"
+import BackgroundImage from "../../components/BackgroundImage"
 import { useEffect } from "react"
 import { useFormState } from "react-dom"
 import { toast } from "react-toastify"

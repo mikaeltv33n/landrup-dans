@@ -1,5 +1,5 @@
-import Navbar from "@/components/Navbar"
-import Searchbar from "@/components/Searchbar"
+import Navbar from "../../components/Navbar"
+import Searchbar from "../../components/Searchbar"
 
 export default function Searchside() {
     return (

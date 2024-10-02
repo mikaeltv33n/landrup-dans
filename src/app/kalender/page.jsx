@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar"
+import Navbar from "../../components/Navbar"
 import { cookies } from "next/headers"
 
 export default async function Calendar() {

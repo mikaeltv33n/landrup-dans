@@ -1,5 +1,5 @@
 "use client"
-import getCookie from "@/actions/getCookie"
+import getCookie from "../actions/getCookie"
 import { toast } from "react-toastify"
 import { useState, useEffect } from "react"
 

@@ -1,5 +1,5 @@
-import ActivityList from "@/components/ActivityList"
-import Navbar from "@/components/Navbar"
+import ActivityList from "../../components/ActivityList"
+import Navbar from "../../components/Navbar"
 
 export default async function activities() {
 
