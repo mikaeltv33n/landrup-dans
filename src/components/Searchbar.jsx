@@ -33,7 +33,7 @@ export default function Searchbar() {
             </header>
             <div className={`h-[80vh] w-full px-6 py-2 overflow-y-auto text-white z-50 ${!searchResults.length && "hidden"}`}>
                 Resultater
-                {searchResults.length ? searchResults.map(result => <ActivityCard activity={result} />)
+                {searchResults.length ? searchResults.map((result, index) => <ActivityCard key={index} activity={result} />)
                     : (<p>Der var ingen resultater</p>)}
             </div>
         </div>
